@@ -24,11 +24,11 @@ return row;
 }).join("\n");
 const table =` <table class='table-auto w-full'>
     <tr>
-    <th class='px-4 py-2 '>Name </th>
-    <th class='px-4 py-2 '>Email </th>
-    <th class='px-4 py-2 '>Password </th>
-    <th class='px-4 py-2 '>Dob </th>
-    <th class='px-4 py-2 '>Accepted terms? </th>
+    <th class='px-4 py-2 border'>Name </th>
+    <th class='px-4 py-2 border'>Email </th>
+    <th class='px-4 py-2 border'>Password </th>
+    <th class='px-4 py-2 border'>Dob </th>
+    <th class='px-4 py-2 border'>Accepted terms? </th>
     </tr>${tbleEntries}
 </table>`
 let details = document.getElementById('user-entries')
